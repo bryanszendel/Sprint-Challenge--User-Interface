@@ -34,22 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is comprised of elements that have an obvious meaning to the computer and developer. The elements help the dev and computer understand how the page is layed out. For example, a `<section>` tag literally mean 'Section' to identify a specific section of code or a `<header>` or `<footer>` tag tell you what is the top of the page and the bottom of the page, respectively. These semantic elements help you understand the meaning and layout of the HTML on the page you're working with.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+`display: block` automatically has a line break built into it, so any following elements will be pushed down to the next row on the screen. The element with this property will fill its parent element unless set with a specific height/weight. 
+
+`display: inline` does not have a line break and will sit wherever you place it within the element it is nested within. 
 
 3. What are the 4 areas of the box model?
 
+Element, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+`align-items: center` works on the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows teams of developers to collaborate on the same projects. Its intention is to allow Version Control, which becomes particularly useful when several developers may be working on the same code. You don't want developers to keep overwriting each others' code back and forth forever. Git allows two devs to work on the same code and submit a Pull Request for review where one or the other's code may get deployed, or perhaps a combo of the two devs' work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
