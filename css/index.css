@@ -130,7 +130,7 @@ p {
 }
 
 .about-middle-content .about-middle-text {
-    width: 45%;
+    width: 46%;
     justify-content: flex-start;
     border-bottom: 1px dashed black;
     margin-bottom: 50px;
@@ -143,10 +143,10 @@ p {
 
 .about-middle-content .about-middle-text button {
     width: 125px;
-    border: 2.3px solid black;
+    border: 2.28px solid black;
     border-radius: 10px;
     font-size: 15px;
-    padding: 10px 12px;
+    padding: 9px 14px;
     margin: 20px 0px;
 }
 
@@ -224,6 +224,19 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-bottom-text {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 footer {
