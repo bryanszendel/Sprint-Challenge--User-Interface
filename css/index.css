@@ -71,7 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #212121;
+    padding: 0px 41px;
+    font-size: 14px;
+}
+
+#header-img {
+    margin: 20px 0px;
+}
+
 .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -85,9 +112,97 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-top-content .about-text-container {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.form-container form {
+    width: 75%;
+}
+.form-container .inputs-container {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.form-container .inputs-container input {
+    width: 35%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#input-paragraph {
+    width: 70%;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#input-submit {
+    font-size: 25px;
+    background-color: darkgray;
+    border: 2px solid black;
+    height: 40px;
+}
+#input-submit:hover {
+    background-color: black;
+    color: white;
+}
+
+#input-paragraph:hover {
+    background-color: lightgray;
+}
+
+.form-container .inputs-container input:hover {
+    background-color: lightgray;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-middle-content .about-middle-text {
+    width: 46%;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-middle-content .about-middle-text img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.about-middle-content .about-middle-text button {
+    width: 125px;
+    border: 2.28px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 9px 14px;
+    margin: 20px 0px;
 }
 
 .middle-content h2 {
@@ -112,6 +227,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +279,19 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-bottom-text {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 footer {
