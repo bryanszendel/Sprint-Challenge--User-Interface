@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #212121;
+    padding: 0px 41px;
+    font-size: 14px;
+}
+
+#header-img {
+    margin: 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
