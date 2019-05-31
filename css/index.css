@@ -118,6 +118,61 @@ p {
     padding-bottom: 20px;  
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.form-container form {
+    width: 75%;
+}
+.form-container .inputs-container {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.form-container .inputs-container input {
+    width: 35%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#input-paragraph {
+    width: 70%;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#input-submit {
+    font-size: 25px;
+    background-color: darkgray;
+    border: 2px solid black;
+    height: 40px;
+}
+#input-submit:hover {
+    background-color: black;
+    color: white;
+}
+
+#input-paragraph:hover {
+    background-color: lightgray;
+}
+
+.form-container .inputs-container input:hover {
+    background-color: lightgray;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
